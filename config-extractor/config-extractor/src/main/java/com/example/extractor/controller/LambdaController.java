@@ -13,7 +13,7 @@ public class LambdaController {
     @GetMapping("/extract/lambda")
     public String extractLambdaConfigs() {
         lambdaService.extractAllLambdas();
-        return "Lambda configs extracted and uploaded to S3!";
+        return "✅ Lambda configs extracted and uploaded to S3!";
     }
 }
 
